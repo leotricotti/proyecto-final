@@ -1,0 +1,54 @@
+.nosotras-container {
+	display: grid;
+	grid-template: "header" "nosotras" "taller" "feria1" "feria2" "footer";
+}
+
+.nosotras-main {
+    margin: 4rem 3rem 0 3rem;
+
+	.nosotras {
+		grid-area: nosotras;
+	}
+
+	.nosotras-taller {
+		grid-area: taller;
+	}
+
+	.nosotras-feria1 {
+		grid-area: feria1;
+	}
+
+	.nosotras-feria2 {
+		grid-area: feria2;
+	}
+
+	.nosotras,
+	.nosotras-taller,
+	.nosotras-feria1,
+	.nosotras-feria2 {
+
+		.nosotras-txt {
+			h2 {
+				@extend %encabezados;
+			}
+
+			p {
+				@extend %texto;
+			}
+		}
+
+		.nosotras-img {
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.nosotras-mapa1,
+	.nosotras-mapa2 {
+		iframe {
+			display: none;
+		}
+	}
+
+}
