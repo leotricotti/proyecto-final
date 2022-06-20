@@ -2,15 +2,15 @@
 
 .index-container {
     display: grid;
-    grid-template: "header" "carrusel" "marketing" "info" "footer";
+    grid-template: "header""carrusel""marketing""info""footer";
 }
 
 .index-main {
     margin-top: 3rem;
-    
+
     .carousel {
         grid-area: carrusel;
-       
+
     }
 
     .carousel-item {
@@ -21,14 +21,15 @@
             filter: brightness(1.5);
         }
     }
-    
-   .btn-car {
+
+    .btn-car {
         @extend %buttons;
     }
 
     .carousel-caption {
         bottom: 0;
         padding-bottom: 0;
+
         em {
             color: rgb(167, 167, 167);
         }
@@ -47,6 +48,7 @@
     .item-marketing {
         text-align: center;
         padding: 2rem 1rem;
+
         img {
             width: 100px;
             height: 100px;
@@ -83,6 +85,7 @@
             font-size: 2.5rem;
             padding: 3rem 0;
         }
+
         p {
             font-family: time_burner_bold;
             font-size: 1.1rem;
@@ -96,7 +99,7 @@
     .btn-car,
     .button {
         &:hover {
-            @include hovers(1.1, darken(#7F38DE, 20) );
+            @include hovers(1.1, darken(#7F38DE, 20));
         }
     }
 }

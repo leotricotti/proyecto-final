@@ -2,29 +2,30 @@
 
 .contacto-container {
 	display: grid;
-	grid-template: "header" "contacto" "footer";
+	grid-template: "header""contacto""footer";
 	position: relative;
 }
 
 .form-contact {
 	grid-area: contacto;
 	margin-top: 5rem;
+
 	h2 {
 		text-align: center;
 		margin-bottom: 2rem;
 	}
 
 	.btn {
-			@extend %buttons;
-			margin-top: 2rem;
-			margin-bottom: 5rem;
+		@extend %buttons;
+		margin-top: 2rem;
+		margin-bottom: 5rem;
 	}
-	
+
 	.btn {
 		&:hover {
-            @include hovers(.3rem 1.5rem, darken(#7F38DE, 12) );
-        }
-    }
+			@include hovers(.3rem 1.5rem, darken(#7F38DE, 12));
+		}
+	}
 }
 
 .separador-contacto {

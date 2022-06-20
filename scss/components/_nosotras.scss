@@ -1,10 +1,10 @@
 .nosotras-container {
 	display: grid;
-	grid-template: "header" "nosotras" "taller" "feria1" "feria2" "footer";
+	grid-template: "header""nosotras""taller""feria1""feria2""footer";
 }
 
 .nosotras-main {
-    margin: 4rem 3rem 0 3rem;
+	margin: 4rem 3rem 0 3rem;
 
 	.nosotras {
 		grid-area: nosotras;
