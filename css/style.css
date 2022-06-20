@@ -235,7 +235,14 @@ a {
 }
 
 .galeria-main .galeria-titulo {
-  margin-top: 5rem;
+  font-family: slthin;
+  font-size: 2.3rem;
+  margin-top: 3rem;
+}
+.galeria-main .text-muted {
+  font-family: slthin;
+  font-size: 1.2rem;
+  margin: 1rem 5rem;
 }
 .galeria-main .py-lg-5 {
   padding: 0 0 !important;
@@ -254,6 +261,10 @@ a {
 }
 .galeria-main .card-body .btn {
   padding: 0.2rem 0.3rem;
+}
+.galeria-main .card-body .card-text {
+  font-family: slthin;
+  font-size: 1.1rem;
 }
 .galeria-main .menu-fixed .btn:hover {
   transform: scale(0.9);
