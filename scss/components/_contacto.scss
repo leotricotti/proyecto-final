@@ -3,11 +3,12 @@
 .contacto-container {
 	display: grid;
 	grid-template: "header" "contacto" "footer";
+	position: relative;
 }
 
 .form-contact {
 	grid-area: contacto;
-	margin-top: 5rem;
+	margin-top: 1rem;
 	h2 {
 		text-align: center;
 		margin-bottom: 2rem;
@@ -24,8 +25,10 @@
             @include hovers(.3rem 1.5rem, darken(#7F38DE, 12) );
         }
     }
+}
 
-	#footer {
-		border-top: 1px solid gray;
-	}
+.separador-contacto {
+	position: absolute;
+	width: 100%;
+	bottom: 150px;
 }

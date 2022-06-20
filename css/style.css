@@ -169,13 +169,13 @@ a {
 .index-main .item-marketing h2 {
   font-family: slthin;
   font-size: 2.3rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   text-align: center;
 }
 .index-main .item-marketing p {
   font-family: slthin;
   font-size: 1.2rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
 }
 .index-main .index-info {
   grid-area: info;
@@ -298,11 +298,12 @@ a {
 .contacto-container {
   display: grid;
   grid-template: "header" "contacto" "footer";
+  position: relative;
 }
 
 .form-contact {
   grid-area: contacto;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .form-contact h2 {
   text-align: center;
@@ -316,8 +317,11 @@ a {
   transform: scale(0.3rem 1.5rem);
   background-color: #611fba;
 }
-.form-contact #footer {
-  border-top: 1px solid gray;
+
+.separador-contacto {
+  position: absolute;
+  width: 100%;
+  bottom: 150px;
 }
 
 .index-main .btn-car, .index-main .button, .galeria-main .menu-fixed .btn, .galeria-main .card-body .btn, .form-contact .btn {
