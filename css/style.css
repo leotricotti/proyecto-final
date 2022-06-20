@@ -303,7 +303,7 @@ a {
 
 .form-contact {
   grid-area: contacto;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 .form-contact h2 {
   text-align: center;
