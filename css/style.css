@@ -167,11 +167,15 @@ a {
   height: 100px;
 }
 .index-main .item-marketing h2 {
+  font-family: slthin;
+  font-size: 2.3rem;
   padding-top: 1rem;
   text-align: center;
 }
 .index-main .item-marketing p {
-  padding: 0 4rem;
+  font-family: slthin;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
 }
 .index-main .index-info {
   grid-area: info;
@@ -248,6 +252,9 @@ a {
   border-radius: 1rem;
   transition: all 0.1s ease-in-out;
 }
+.galeria-main .card-body .btn {
+  padding: 0.2rem 0.3rem;
+}
 .galeria-main .menu-fixed .btn:hover {
   transform: scale(0.9);
   background-color: #b78fed;
@@ -320,7 +327,7 @@ a {
   border-radius: 0.5rem;
   transition: all 0.1s ease-in-out;
   font-family: slthin;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .productos-main .productos-txt h2, .nosotras-main .nosotras .nosotras-txt h2,

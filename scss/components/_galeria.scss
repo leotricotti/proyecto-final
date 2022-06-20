@@ -31,6 +31,7 @@
 	.card-body {
 		.btn {
 			@extend %buttons;
+			padding: .2rem .3rem;
 		}
 	}
 	.menu-fixed .btn {
