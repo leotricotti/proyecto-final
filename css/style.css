@@ -322,6 +322,7 @@ a {
 
 .index-main .btn-car, .index-main .button, .galeria-main .menu-fixed .btn, .galeria-main .card-body .btn, .form-contact .btn {
   color: #fff;
+  text-align: center;
   background-color: #7F38DE;
   border: 1px solid #000;
   border-radius: 0.5rem;
