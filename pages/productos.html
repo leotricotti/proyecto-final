@@ -23,6 +23,8 @@
     <link rel="shortcut icon" href="../multimedia/images/logo-favicom/logEscar.ico " type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Título -->
     <title>Amuletos del Alma - Productos | Joyería de Autor</title>
 </head>
@@ -30,7 +32,7 @@
 <body class="productos-container">
     <!-- Header -->
     <header id="header">
-        <nav class="nav-bar navbar-expand-lg">
+        <nav class="nav-bar navbar-expand-lg" data-aos="slide-down">
             <div class="container-nav">
                 <div class="logo-container">
                     <a href="../index.html">
@@ -85,7 +87,7 @@
     <!-- Main -->
     <main class="productos-main">
         <section class="productos-amuletos">
-            <div class="productos-txt">
+            <div class="productos-txt" data-aos="zoom-in-right">
                 <h2>
                     Amuletos
                 </h2>
@@ -102,7 +104,7 @@
                     <img src="../multimedia/images/productos/amuletos/amuletosTres.webp" alt="Imagen de amuleto">
                 </div>
             </div>
-            <div class="img-desktop">
+            <div class="img-desktop" data-aos="zoom-in-left">
                 <img src="../multimedia/images/productos/amuletos/amuletosUno.webp" alt="Imagen de amuletos">
             </div>
         </section>
@@ -110,7 +112,7 @@
         <hr class="separador">
 
         <section class="productos-anillos">
-            <div class="productos-txt">
+            <div class="productos-txt" data-aos="zoom-in-right">
                 <h2>
                     Anillos
                 </h2>
@@ -129,7 +131,7 @@
                         alt="Imagagen de anillos artesanales">
                 </div>
             </div>
-            <div class="img-desktop">
+            <div class="img-desktop" data-aos="zoom-in-left">
                 <img src="../multimedia/images/productos/anillos/anillosUno.webp" alt="Imagagen de anillos artesanales">
             </div>
         </section>
@@ -137,7 +139,7 @@
         <hr class="separador">
 
         <section class="productos-aros">
-            <div class="productos-txt">
+            <div class="productos-txt" data-aos="zoom-in-right">
                 <h2>
                     Aros
                 </h2>
@@ -155,7 +157,7 @@
                     <img src="../multimedia/images/productos/aros/arosTres.webp" alt="Imagen de aros artesanales">
                 </div>
             </div>
-            <div class="img-desktop">
+            <div class="img-desktop" data-aos="zoom-in-left">
                 <img src="../multimedia/images/productos/aros/arosUno.webp" alt="Imagen de aros artesanales">
             </div>
         </section>
@@ -163,7 +165,7 @@
         <hr class="separador">
 
         <section class="productos-dijes">
-            <div class="productos-txt">
+            <div class="productos-txt" data-aos="zoom-in-right">
                 <h2>
                     Dijes
                 </h2>
@@ -181,7 +183,7 @@
                     <img src="../multimedia/images/productos/dijes/dijesTres.webp" alt="Imagen de dijes artesanales">
                 </div>
             </div>
-            <div class="img-desktop">
+            <div class="img-desktop" data-aos="zoom-in-left">
                 <img src="../multimedia/images/productos/dijes/dijesUno.webp" alt="Imagen de dijes artesanales">
             </div>
         </section>
@@ -214,6 +216,13 @@
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+        <!-- JavaScript AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 1500});
     </script>
 
 

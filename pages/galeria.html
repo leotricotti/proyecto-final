@@ -21,6 +21,10 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Favicom -->
     <link rel="shortcut icon" href="../multimedia/images/logo-favicom/logEscar.ico " type="image/x-icon">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Título -->
@@ -30,7 +34,7 @@
 <body class="galeria-container">
     <!-- Header -->
     <header id="header">
-        <nav class="nav-bar navbar-expand-lg">
+        <nav class="nav-bar navbar-expand-lg" data-aos="slide-down">
             <div class="container-nav">
                 <div class="logo-container">
                     <a href="../index.html">
@@ -87,14 +91,14 @@
         <section class="py-5 text-center container joyeria">
             <div class="row py-lg-5">
                 <div class="col-lg-10 col-md-8 mx-auto galeria-titulo">
-                    <h1 class="fw-light">
+                    <h1 class="fw-light" data-aos="zoom-in-left">
                         Joyería de Autor
                     </h1>
-                    <p class="lead text-muted">
+                    <p class="lead text-muted" data-aos="zoom-in-right">
                         La artesanía meticulosa, el diseño innovador y las piedras naturales definen los diseños de alta
                         joyería que realizamos en Amuletos del Alma.
                     </p>
-                    <div class="menu-fixed">
+                    <div class="menu-fixed" data-aos="zoom-in-up">
                         <p>
                             <a href="#anillos" class="btn btn-secondary my-2">
                                 Anillos
@@ -119,8 +123,8 @@
         <div class="album anillos py-5">
             <div class="container">
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class="card shadow-sm ">
+                    <div class="col" data-aos="zoom-in">
+                        <div class="card shadow-sm">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloUno.webp"
                                 alt="Imagen de anillos con piedras">
                             <div class="card-body">
@@ -134,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloDos.webp"
                                 alt="Imagen de anillos con piedras">
@@ -147,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloTres.webp"
                                 alt="Imagen de anillos con piedras">
@@ -160,7 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloCuatro.webp"
                                 alt="Imagen de anillos con piedras">
@@ -173,7 +177,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloCinco.webp"
                                 alt="Imagen de anillos con piedras">
@@ -186,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloSeis.webp"
                                 alt="Imagen de anillos con piedras">
@@ -199,7 +203,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloSiete.webp"
                                 alt="Imagen de anillos con piedras">
@@ -212,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/anillos/anilloOcho.webp"
                                 alt="Imagen de anillos con piedras">
@@ -231,10 +235,24 @@
 
         <hr id="aros">
 
+        <div class="menu-fixed-dos" data-aos="fade-right">
+            <p>
+                <a href="#anillos" class="btn btn-secondary my-2">
+                    Anillos
+                </a>
+                <a href="#dijes" class="btn btn-secondary my-2">
+                    Dijes
+                </a>
+                <a href="#amuletos" class="btn btn-secondary my-2">
+                    Amuletos
+                </a>
+            </p>
+        </div>
+
         <div class="album aros py-5">
             <div class="container">
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4">
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosUno.webp"
                                 alt="Imagen de par de aros">
@@ -247,7 +265,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosDos.webp"
                                 alt="Imagen de par de aros">
@@ -260,7 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosTres.webp"
                                 alt="Imagen de par de aros">
@@ -273,7 +291,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosCuatro.webp"
                                 alt="Imagen de par de aros">
@@ -286,7 +304,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosCinco.webp"
                                 alt="Imagen de par de aros">
@@ -299,7 +317,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosSeis.webp"
                                 alt="Imagen de par de aros">
@@ -312,7 +330,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosSiete.webp"
                                 alt="Imagen de par de aros">
@@ -325,7 +343,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/aros/arosOcho.webp"
                                 alt="Imagen de par de aros">
@@ -344,10 +362,24 @@
 
         <hr id="dijes">
 
+        <div class="menu-fixed-dos" data-aos="fade-left">
+            <p>
+                <a href="#anillos" class="btn btn-secondary my-2">
+                    Anillos
+                </a>
+                <a href="#aros" class="btn btn-secondary my-2">
+                    Aros
+                </a>
+                <a href="#amuletos" class="btn btn-secondary my-2">
+                    Amuletos
+                </a>
+            </p>
+        </div>
+
         <div class="album dijes py-5">
             <div class="container">
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4">
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeUno.webp"
                                 alt="Imagen de anillos con piedras">
@@ -360,7 +392,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeDos.webp"
                                 alt="Imagen de dijes artesanales">
@@ -373,7 +405,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeTres.webp"
                                 alt="Imagen de dijes artesanales">
@@ -386,7 +418,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeCuatro.webp"
                                 alt="Imagen de dijes artesanales">
@@ -399,7 +431,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeCinco.webp"
                                 alt="Imagenes de dijes artesanales">
@@ -412,7 +444,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeSeis.webp"
                                 alt="Imagen de dijes artesanales">
@@ -425,7 +457,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeSiete.webp"
                                 alt="Imagen de dijes artesanales">
@@ -438,7 +470,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/dijes/dijeOcho.webp"
                                 alt="Imagen de dijes artesanaless">
@@ -457,10 +489,24 @@
 
         <hr id="amuletos">
 
+        <div class="menu-fixed-dos" data-aos="fade-right">
+            <p>
+                <a href="#anillos" class="btn btn-secondary my-2">
+                    Anillos
+                </a>
+                <a href="#aros" class="btn btn-secondary my-2">
+                    Aros
+                </a>
+                <a href="#dijes" class="btn btn-secondary my-2">
+                    Dijes
+                </a>
+            </p>
+        </div>
+
         <div class="album amuletos py-5">
             <div class="container">
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4   g-4">
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoUno.webp"
                                 alt="Imagen de amuiletos">
@@ -473,7 +519,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoDos.webp"
                                 alt="Imagen de amuiletos">
@@ -486,7 +532,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoTres.webp"
                                 alt="Imagen de amuiletos">
@@ -499,7 +545,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoCuatro.webp"
                                 alt="Imagen de amuiletos">
@@ -512,7 +558,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoCinco.webp"
                                 alt="Imagen de amuiletos">
@@ -525,7 +571,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoSeies.webp"
                                 alt="Imagen de amuiletos">
@@ -538,7 +584,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoSiete.webp"
                                 alt="Imagen de amuiletos">
@@ -551,7 +597,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in">
                         <div class="card shadow-sm ">
                             <img class="card-img-top" src="../multimedia/images/galeria/amuletos/amuletoOcho.webp"
                                 alt="Imagen de amuiletos">
@@ -566,6 +612,22 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="menu-fixed-tres" data-aos="fade-left">
+            <p>
+                <a href="#anillos" class="btn btn-secondary my-2">
+                    Anillos
+                </a>
+                <a href="#aros" class="btn btn-secondary my-2">
+                    Aros
+                </a>
+                <a href="#dijes" class="btn btn-secondary my-2">
+                    Dijes
+                </a>
+                <a href="#amuletos" class="btn btn-secondary my-2">
+                    Amuletos
+                </a>
+            </p>
         </div>
     </main>
 
@@ -597,7 +659,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
-
+    <!-- JavaScript AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 1500});
+    </script>
 
 </body>
 

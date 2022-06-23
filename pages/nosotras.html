@@ -21,6 +21,10 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Favicom -->
     <link rel="shortcut icon" href="../multimedia/images/logo-favicom/logEscar.ico " type="image/x-icon">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Título -->
@@ -30,7 +34,7 @@
 <body class="nosotras-container">
     <!-- Header -->
     <header id="header">
-        <nav class="nav-bar navbar-expand-lg">
+        <nav class="nav-bar navbar-expand-lg" data-aos="slide-down">
             <div class="container-nav">
                 <div class="logo-container">
                     <a href="../index.html">
@@ -85,7 +89,7 @@
     <!-- Main -->
     <main class="nosotras-main">
         <section class="nosotras">
-            <div class="nosotras-txt">
+            <div class="nosotras-txt" data-aos="zoom-in-right">
                 <h2>
                     Nosotras
                 </h2>
@@ -103,7 +107,7 @@
                     quien la porta.
                 </p>
             </div>
-            <div class="nosotras-img">
+            <div class="nosotras-img" data-aos="zoom-in-left">
                 <img src="../multimedia/images/nosotras/artistas.webp" alt="Imagen de las artistas">
             </div>
         </section>
@@ -111,7 +115,7 @@
         <hr class="separador">
 
         <section class="nosotras-taller">
-            <div class="nosotras-txt">
+            <div class="nosotras-txt" data-aos="zoom-in-right">
                 <h2>
                     Nuestro Taller
                 </h2>
@@ -122,7 +126,7 @@
                     todo lo necesario para llevar adelante nuestro trabajo.
                 </p>
             </div>
-            <div class="nosotras-img">
+            <div class="nosotras-img" data-aos="zoom-in-left">
                 <img src="../multimedia/images/nosotras/taller.webp" alt="Imagen del taller">
             </div>
         </section>
@@ -130,7 +134,7 @@
         <hr class="separador">
 
         <section class="nosotras-feria1">
-            <div class="nosotras-txt">
+            <div class="nosotras-txt" data-aos="zoom-in-right">
                 <h2>
                     Feria de Artesanos <br> <span class="text-muted"> Plaza Belgrano</span>
                 </h2>
@@ -146,8 +150,7 @@
                         title="Ubicación Plaza Belgrano, City Bell"></iframe>
                 </div>
             </div>
-
-            <div class="nosotras-img">
+            <div class="nosotras-img" data-aos="zoom-in-left">
                 <img src="../multimedia/images/nosotras/feriaCityBell.webp" alt="Imagen de la feria de City Bell">
             </div>
         </section>
@@ -155,7 +158,7 @@
         <hr class="separador">
 
         <section class="nosotras-feria2">
-            <div class="nosotras-txt">
+            <div class="nosotras-txt" data-aos="zoom-in-right">
                 <h2>
                     Feria de Artesanos <br> <span class="text-muted"> Plaza Castells</span>
                 </h2>
@@ -171,7 +174,7 @@
                         title="Ubicación Plaza Castells, Villa Elisa"></iframe>
                 </div>
             </div>
-            <div class="nosotras-img">
+            <div class="nosotras-img" data-aos="zoom-in-left">
                 <img src="../multimedia/images/nosotras/feriaVillaElisa.webp" alt="Imagen de la feria de Villa Elisa">
             </div>
         </section>
@@ -204,6 +207,13 @@
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <!-- JavaScript AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 1500});
     </script>
 
 </body>

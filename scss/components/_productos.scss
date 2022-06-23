@@ -29,11 +29,15 @@
 
 		img {
 			width: 40%;
+			@extend %img-shadow
 		}
 	}
 
 	.img-desktop {
 		display: none;
+		img {
+			@extend %img-shadow
+		}
 	}
 
 	.productos-anillos {

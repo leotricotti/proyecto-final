@@ -9,21 +9,32 @@
 	.fw-light {
 		font-family: slthin;
 		font-size: 2.3rem;
+		font-weight: 580;
 	}
 
 	.text-muted {
 		font-family: slthin;
 		font-size: 1.2rem;
+		font-weight: 590;
 	}
 
 	.py-lg-5 {
 		padding: 0 0 !important;
 	}
 
-	.menu-fixed {
+	.menu-fixed, .menu-fixed-dos, 
+	.menu-fixed-tres {
 		.btn {
 			@extend %buttons;
 		}
+	}
+
+	.menu-fixed-dos {
+		margin-left: 24rem;
+	}
+
+	.menu-fixed-tres {
+		margin-left: 22rem;
 	}
 
 	.card {
@@ -52,7 +63,8 @@
 		}
 	}
 
-	.menu-fixed .btn {
+	.menu-fixed .btn, .menu-fixed-dos .btn,
+	.menu-fixed-tres .btn {
 		&:hover {
 			@include hovers(.9, lighten(#7F38DE, 20));
 		}
@@ -61,7 +73,7 @@
 	.card {
 		&:hover {
 			border: 1px solid black;
-			padding: .4rem;
+			padding: .1rem;
 		}
 	}
 
