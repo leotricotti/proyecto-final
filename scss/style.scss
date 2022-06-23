@@ -181,7 +181,16 @@ a {
     //Galería
     .galeria-main {
         margin: 0 12rem 4rem 12rem;
+
+        .menu-fixed-dos {
+            margin-left: 24rem;
+        }
+
+        .menu-fixed-tres {
+            margin-left: 22rem;
+        }
     }
+
 
     //Nosotras
     .nosotras-main {
@@ -222,7 +231,7 @@ a {
             iframe {
                 display: block;
                 margin: 4rem 0 0 10rem;
-                
+
             }
         }
 

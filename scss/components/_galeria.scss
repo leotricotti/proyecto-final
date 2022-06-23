@@ -22,7 +22,8 @@
 		padding: 0 0 !important;
 	}
 
-	.menu-fixed, .menu-fixed-dos, 
+	.menu-fixed,
+	.menu-fixed-dos,
 	.menu-fixed-tres {
 		.btn {
 			@extend %buttons;
@@ -30,11 +31,11 @@
 	}
 
 	.menu-fixed-dos {
-		margin-left: 24rem;
+		margin-left: 5.5rem;
 	}
 
 	.menu-fixed-tres {
-		margin-left: 22rem;
+		margin-left: 3.5rem;
 	}
 
 	.card {
@@ -63,7 +64,8 @@
 		}
 	}
 
-	.menu-fixed .btn, .menu-fixed-dos .btn,
+	.menu-fixed .btn,
+	.menu-fixed-dos .btn,
 	.menu-fixed-tres .btn {
 		&:hover {
 			@include hovers(.9, lighten(#7F38DE, 20));
@@ -76,6 +78,4 @@
 			padding: .1rem;
 		}
 	}
-
-
 }

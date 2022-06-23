@@ -150,6 +150,9 @@ a {
 .index-main .carousel-caption em {
   color: rgb(167, 167, 167);
 }
+.index-main .animado {
+  margin-top: 30rem;
+}
 .index-main .carousel-control-next-icon,
 .index-main .carousel-control-prev-icon {
   background-color: rgb(128, 128, 128);
@@ -250,10 +253,10 @@ a {
   padding: 0 0 !important;
 }
 .galeria-main .menu-fixed-dos {
-  margin-left: 24rem;
+  margin-left: 5.5rem;
 }
 .galeria-main .menu-fixed-tres {
-  margin-left: 22rem;
+  margin-left: 3.5rem;
 }
 .galeria-main .card {
   transition: all 0.1s ease-in-out;
@@ -476,6 +479,12 @@ a {
   }
   .galeria-main {
     margin: 0 12rem 4rem 12rem;
+  }
+  .galeria-main .menu-fixed-dos {
+    margin-left: 24rem;
+  }
+  .galeria-main .menu-fixed-tres {
+    margin-left: 22rem;
   }
   .nosotras-main {
     margin-top: 5rem;
