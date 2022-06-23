@@ -51,6 +51,10 @@ a {
     padding-top: 0 !important;
 }
 
+.disclaimer {
+    display: none;
+}
+
 //Import
 @import "../scss/components/header";
 @import "../scss/components/footer";
@@ -181,16 +185,7 @@ a {
     //Galería
     .galeria-main {
         margin: 0 12rem 4rem 12rem;
-
-        .menu-fixed-dos {
-            margin-left: 24rem;
-        }
-
-        .menu-fixed-tres {
-            margin-left: 22rem;
-        }
     }
-
 
     //Nosotras
     .nosotras-main {

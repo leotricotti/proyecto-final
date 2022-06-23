@@ -47,6 +47,10 @@ a {
   padding-top: 0 !important;
 }
 
+.disclaimer {
+  display: none;
+}
+
 #header {
   grid-area: header;
   background-color: rgb(232, 217, 250);
@@ -252,12 +256,6 @@ a {
 .galeria-main .py-lg-5 {
   padding: 0 0 !important;
 }
-.galeria-main .menu-fixed-dos {
-  margin-left: 5.5rem;
-}
-.galeria-main .menu-fixed-tres {
-  margin-left: 3.5rem;
-}
 .galeria-main .card {
   transition: all 0.1s ease-in-out;
   font-family: slthin;
@@ -277,7 +275,8 @@ a {
   font-family: slthin;
   font-size: 1.1rem;
 }
-.galeria-main .menu-fixed .btn:hover, .galeria-main .menu-fixed-dos .btn:hover,
+.galeria-main .menu-fixed .btn:hover,
+.galeria-main .menu-fixed-dos .btn:hover,
 .galeria-main .menu-fixed-tres .btn:hover {
   transform: scale(0.9);
   background-color: #b78fed;
@@ -347,7 +346,8 @@ a {
   bottom: 150px;
 }
 
-.index-main .btn-car, .index-main .button, .galeria-main .menu-fixed .btn, .galeria-main .menu-fixed-dos .btn,
+.index-main .btn-car, .index-main .button, .galeria-main .menu-fixed .btn,
+.galeria-main .menu-fixed-dos .btn,
 .galeria-main .menu-fixed-tres .btn, .galeria-main .card-body .btn, .form-contact .btn {
   color: #fff;
   text-align: center;
@@ -479,12 +479,6 @@ a {
   }
   .galeria-main {
     margin: 0 12rem 4rem 12rem;
-  }
-  .galeria-main .menu-fixed-dos {
-    margin-left: 24rem;
-  }
-  .galeria-main .menu-fixed-tres {
-    margin-left: 22rem;
   }
   .nosotras-main {
     margin-top: 5rem;
