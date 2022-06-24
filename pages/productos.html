@@ -102,7 +102,7 @@
                     <img src="../multimedia/images/productos/amuletos/amuletosTres.webp" alt="Imagen de amuleto">
                 </div>
             </div>
-            <div class="img-desktop" data-aos="zoom-in-left">
+            <div class="img-desktop" data-aos="fade-left">
                 <img src="../multimedia/images/productos/amuletos/amuletosUno.webp" alt="Imagen de amuletos">
             </div>
         </section>
@@ -213,10 +213,20 @@
     </script>
     <!-- JavaScript AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
     <script>
         AOS.init({
             easing: 'ease-in-out',
-            duration: 1500
+            duration: 1200});
+    </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+        $('.hero__scroll').on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: $(window).height()
+            }, 1200);
         });
     </script>
 
